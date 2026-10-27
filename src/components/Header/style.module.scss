@@ -1,0 +1,22 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    background-color: transparent;
+    @include flex-center;
+    nav {
+        border: 1px solid #181717;
+        width: 50%;
+        height: 100%;
+        border-radius: 9999px;
+    }
+}
