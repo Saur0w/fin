@@ -1,0 +1,8 @@
+.main {
+  position: relative;
+  width: 100%;
+  min-height: 100dvh;
+  background-color: #000;
+  color: #f2f2f4;
+  overflow: hidden;
+}
